@@ -8,7 +8,7 @@ if(isset($_POST['submit'])){
 	$hostname=$_POST['hostname'];
 	$address=$_POST['address'];
 
-    $to='danuraj18042017@gmail.com';
+    $to='abc@gmail.com'; // your email  address goes here.
     $subject='Form Submission';
     $message="Name: ".$name."\n"."Email: ".$email."\n"."Phone: ".$phone."\n"."check-in: ".$checkin."\n"."check-out: ".$checkout."\n"."Hostname: ".$hostname."\n"."Address: ".$address."\n".;
     $headers="Form: ".$email;
